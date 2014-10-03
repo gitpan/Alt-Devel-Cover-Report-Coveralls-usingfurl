@@ -1,0 +1,67 @@
+Name
+
+    Alt::Devel::Cover::Report::Coveralls::usingfurl - Because v0.09 uses
+    HTTP::Tiny and is broken
+
+Synopsis
+
+       # In your projects .travis.yml file
+       language: perl
+       perl:
+         - 5.16.3
+         - 5.14.4
+       before_install:
+         cpanm -n Alt::Devel::Cover::Report::Coveralls::usingfurl
+       script:
+         perl Build.PL && ./Build build && cover -test -report coveralls
+
+Description
+
+    Devel::Cover::Report::Coveralls used to use Furl and that worked so
+    that is what this module does
+
+Configuration and Environment
+
+    None
+
+Subroutines/Methods
+
+    None
+
+Diagnostics
+
+    None
+
+Dependencies
+
+    None
+
+Incompatibilities
+
+    There are no known incompatibilities in this module
+
+Bugs and Limitations
+
+    There are no known bugs in this module. Please report problems to
+    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alt-Devel-Cover-Report-Coveral
+    ls-usingfurl. Patches are welcome
+
+Acknowledgements
+
+    Larry Wall - For the Perl programming language
+
+Author
+
+    Peter Flanigan, <pjfl@cpan.org>
+
+License and Copyright
+
+    Copyright (c) 2014 Peter Flanigan. All rights reserved
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself. See perlartistic
+
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT WARRANTY; without even the implied warranty of MERCHANTABILITY
+    or FITNESS FOR A PARTICULAR PURPOSE
+

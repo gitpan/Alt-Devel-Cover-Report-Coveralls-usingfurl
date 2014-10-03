@@ -1,0 +1,69 @@
+{
+   "abstract" : "Because v0.09 uses HTTP::Tiny and is broken",
+   "author" : [
+      "Peter Flanigan, C<< <pjfl@cpan.org> >>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alt-Devel-Cover-Report-Coveralls-usingfurl",
+   "no_index" : {
+      "directory" : [
+         "examples",
+         "inc",
+         "share",
+         "t",
+         "lib/Devel"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.4004",
+            "Test::Requires" : "0.06",
+            "version" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.4004",
+            "version" : "0.88"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Devel::Cover" : "1.02",
+            "Furl" : "0",
+            "IO::Socket::SSL" : "0",
+            "JSON::PP" : "0",
+            "YAML" : "0",
+            "perl" : "5.01"
+         }
+      }
+   },
+   "provides" : {
+      "Alt::Devel::Cover::Report::Coveralls::usingfurl" : {
+         "file" : "lib/Alt/Devel/Cover/Report/Coveralls/usingfurl.pm",
+         "version" : "v0.1.2"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-Alt-Devel-Cover-Report-Coveralls-usingfurl@rt.cpan.org",
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alt-Devel-Cover-Report-Coveralls-usingfurl"
+      },
+      "homepage" : "https://metacpan.org/author/PJFL",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.1.2"
+}
+

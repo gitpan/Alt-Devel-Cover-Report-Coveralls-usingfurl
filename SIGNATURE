@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 653462e822c428b283ddc8b9450f9b1a3896ca2a Build.PL
+SHA1 a2a8b8a83db448c313251c0658a459ff2aef1de1 Changes
+SHA1 b8415dc6fd6293b168bcc15a552f4383175e2f2f LICENSE
+SHA1 2f87673d927b2ea6e9029d2cfe93777282e9e6af MANIFEST
+SHA1 1fb4d57306cd5b701650cdf4cdb9fbedf911216d META.json
+SHA1 0aa5bcd87107ddf125b37ea6efb150015cb36e0c META.yml
+SHA1 27e8ac7e89955d6c330ed00ed643fcfac4bb9061 README
+SHA1 01c9a4e0e73e72270754475729b1ef89b9cb5190 lib/Alt/Devel/Cover/Report/Coveralls/usingfurl.pm
+SHA1 ae7fa314e04368735f7415c7f1cb4a7856e9c06c lib/Devel/Cover/Report/Coveralls.pm
+SHA1 c96e0f71c7bf4a2bc886d664fd503d8aefd0540a t/00_compile.t
+SHA1 9cad6fa862cc488d902979bf379810f2847c4eef t/01_basic.t
+SHA1 ef0b13f0afad43c6eaae3459503b49e795c1cf59 t/example.pl
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJULp1nAAoJEK492j4Im1Bpxm0H/1x86xcqRaKiGUbOOlkfBYTy
+YiaYaGvvHmfK5kOHLz5Dp4LnId84xVIC19Bhw3UrTM8KnZ8+6KB5fI0MyLHpsFnG
+RmsTTRqrVUIy4jiawo+q2gQ4UL9+JldPgGrdSGNdnX1ibw01damlkGmSmtZCwmig
+jWGNo/lds2VStdvidSu6FiHE2ALiORIPNtyjPx9MyNfSP3e6b47gqgcKmPA9pVQ9
+y+fy2YQzOoTeFCdQ/i6pp+/LHN+ScsT9jjoZxHaJR0zyOwFj+nvlCyWbIfvRd8Iw
+Ze+oYbw37BSAP7ATLcSq8Ap0VIPAlBkZAjn7tADls4kzp/uClObyhZLsQFbwDEY=
+=neBY
+-----END PGP SIGNATURE-----

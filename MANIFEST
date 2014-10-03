@@ -1,0 +1,13 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+README
+SIGNATURE
+lib/Alt/Devel/Cover/Report/Coveralls/usingfurl.pm
+lib/Devel/Cover/Report/Coveralls.pm
+t/00_compile.t
+t/01_basic.t
+t/example.pl
