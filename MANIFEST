@@ -10,4 +10,5 @@ lib/Alt/Devel/Cover/Report/Coveralls/usingfurl.pm
 lib/Devel/Cover/Report/Coveralls.pm
 t/00_compile.t
 t/01_basic.t
+t/01always_pass.t
 t/example.pl

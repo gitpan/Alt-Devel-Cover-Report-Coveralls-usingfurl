@@ -1,5 +1,8 @@
 Revision history for Alt::Devel::Cover::Report::Coveralls::usingfurl
 
+          - Just goes to show that any module can fail it's tests
+            630525ec-4bae-11e4-9533-b131854e61d6
+
 0.1.1     2014-10-03 13:13:50
           - Added project files to master branch
 

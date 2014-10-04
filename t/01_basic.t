@@ -2,6 +2,7 @@ use strict;
 use warnings;
 use utf8;
 use Test::More;
+use Test::Requires { 'Devel::Cover::DB' => 0 };
 
 use FindBin;
 use Devel::Cover::Report::Coveralls;
