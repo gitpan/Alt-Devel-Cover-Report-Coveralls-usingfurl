@@ -1,6 +1,8 @@
 package Alt::Devel::Cover::Report::Coveralls::usingfurl;
 
-use version; our $VERSION = qv( sprintf '0.1.%d', q$Rev: 4 $ =~ /\d+/gmx );
+use strict;
+use warnings;
+use version; our $VERSION = qv( sprintf '0.1.%d', q$Rev: 6 $ =~ /\d+/gmx );
 
 1;
 

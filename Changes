@@ -1,5 +1,6 @@
 Revision history for Alt::Devel::Cover::Report::Coveralls::usingfurl
 
+          - Improve CPANTS Kwalitee score before removing from CPAN
           - Just goes to show that any module can fail it's tests
             630525ec-4bae-11e4-9533-b131854e61d6
 

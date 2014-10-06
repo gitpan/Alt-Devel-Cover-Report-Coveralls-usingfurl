@@ -50,7 +50,7 @@
    "provides" : {
       "Alt::Devel::Cover::Report::Coveralls::usingfurl" : {
          "file" : "lib/Alt/Devel/Cover/Report/Coveralls/usingfurl.pm",
-         "version" : "v0.1.4"
+         "version" : "v0.1.6"
       }
    },
    "release_status" : "stable",
@@ -64,6 +64,6 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.1.4"
+   "version" : "0.1.6"
 }
 
