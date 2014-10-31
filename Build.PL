@@ -7,7 +7,7 @@ sub testing { $ENV{AUTOMATED_TESTING} || $ENV{PERL_CPAN_REPORTER_CONFIG}
                                       || $ENV{PERL5_CPANPLUS_IS_VERSION} }
 sub whimper { print {*STDOUT} $_[ 0 ]."\n"; exit 0 }
 
-my $perl_ver = 5.01;
+my $perl_ver = 5.008005;
 my $name     = 'Alt-Devel-Cover-Report-Coveralls-usingfurl'; $name =~ s{ - }{::}gmx;
 my $prereqs  = {
   'build_requires' => {
@@ -25,7 +25,8 @@ my $prereqs  = {
     'IO::Socket::SSL' => '0',
     'JSON::PP' => '0',
     'YAML' => '0',
-    'perl' => '5.01'
+    'perl' => '5.008005',
+    'version' => '0.88'
   },
 };
 

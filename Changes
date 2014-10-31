@@ -1,5 +1,8 @@
 Revision history for Alt::Devel::Cover::Report::Coveralls::usingfurl
 
+0.3.1     2014-10-31 22:47:48
+          - Added version as a prereq and lowered min perl ver
+
 0.2.1     2014-10-31 11:05:56
           - Improve CPANTS Kwalitee score before removing from CPAN
           - Just goes to show that any module can fail it's tests
