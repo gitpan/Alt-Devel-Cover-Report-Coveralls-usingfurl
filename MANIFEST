@@ -11,4 +11,5 @@ lib/Devel/Cover/Report/Coveralls.pm
 t/00_compile.t
 t/01_basic.t
 t/01always_pass.t
+t/05kwalitee.t
 t/example.pl

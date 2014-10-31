@@ -4,7 +4,7 @@
       "Peter Flanigan, C<< <pjfl@cpan.org> >>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],
@@ -50,7 +50,7 @@
    "provides" : {
       "Alt::Devel::Cover::Report::Coveralls::usingfurl" : {
          "file" : "lib/Alt/Devel/Cover/Report/Coveralls/usingfurl.pm",
-         "version" : "v0.1.6"
+         "version" : "v0.2.1"
       }
    },
    "release_status" : "stable",
@@ -64,6 +64,6 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.1.6"
+   "version" : "0.2.1"
 }
 
