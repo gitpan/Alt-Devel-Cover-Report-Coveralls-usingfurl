@@ -116,7 +116,7 @@ sub report {
     $json->{git} = eval { get_git_info() } || {};
     $json->{source_files} = \@sfs;
 
-    my $furl = Furl->new;
+    my $furl = Furl->new( ssl_opts => { SSL_verify_mode => Net::SSLeay::VERIFY_NONE() } );
     my $response = $furl->post($API_ENDPOINT, [], [ json => encode_json $json ]);
 
     my $res = eval { decode_json($response->content); };
