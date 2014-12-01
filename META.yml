@@ -26,7 +26,7 @@ no_index:
 provides:
   Alt::Devel::Cover::Report::Coveralls::usingfurl:
     file: lib/Alt/Devel/Cover/Report/Coveralls/usingfurl.pm
-    version: v0.4.1
+    version: v0.5.1
 requires:
   Devel::Cover: '1.02'
   Furl: '0'
@@ -39,4 +39,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Alt-Devel-Cover-Report-Coveralls-usingfurl
   homepage: https://metacpan.org/author/PJFL
   license: http://dev.perl.org/licenses/
-version: 0.4.1
+version: 0.5.1
